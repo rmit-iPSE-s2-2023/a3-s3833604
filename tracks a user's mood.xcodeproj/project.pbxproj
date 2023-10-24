@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB8C08B52AE79C88000E85DF /* tracks_a_user_s_moodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8C08B42AE79C88000E85DF /* tracks_a_user_s_moodApp.swift */; };
+		AB8C08B72AE79C88000E85DF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8C08B62AE79C88000E85DF /* ContentView.swift */; };
+		AB8C08B92AE79C89000E85DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8C08B82AE79C89000E85DF /* Assets.xcassets */; };
+		AB8C08BC2AE79C89000E85DF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB8C08BB2AE79C89000E85DF /* Preview Assets.xcassets */; };
+		AB8C08C62AE79C89000E85DF /* tracks_a_user_s_moodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8C08C52AE79C89000E85DF /* tracks_a_user_s_moodTests.swift */; };
+		AB8C08D02AE79C89000E85DF /* tracks_a_user_s_moodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8C08CF2AE79C89000E85DF /* tracks_a_user_s_moodUITests.swift */; };
+		AB8C08D22AE79C89000E85DF /* tracks_a_user_s_moodUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB8C08D12AE79C89000E85DF /* tracks_a_user_s_moodUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB8C08C22AE79C89000E85DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8C08A92AE79C88000E85DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8C08B02AE79C88000E85DF;
+			remoteInfo = "tracks a user's mood";
+		};
+		AB8C08CC2AE79C89000E85DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB8C08A92AE79C88000E85DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB8C08B02AE79C88000E85DF;
+			remoteInfo = "tracks a user's mood";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB8C08B12AE79C88000E85DF /* tracks a user's mood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tracks a user's mood.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8C08B42AE79C88000E85DF /* tracks_a_user_s_moodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracks_a_user_s_moodApp.swift; sourceTree = "<group>"; };
+		AB8C08B62AE79C88000E85DF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AB8C08B82AE79C89000E85DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB8C08BB2AE79C89000E85DF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AB8C08C12AE79C89000E85DF /* tracks a user's moodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tracks a user's moodTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8C08C52AE79C89000E85DF /* tracks_a_user_s_moodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracks_a_user_s_moodTests.swift; sourceTree = "<group>"; };
+		AB8C08CB2AE79C89000E85DF /* tracks a user's moodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tracks a user's moodUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB8C08CF2AE79C89000E85DF /* tracks_a_user_s_moodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracks_a_user_s_moodUITests.swift; sourceTree = "<group>"; };
+		AB8C08D12AE79C89000E85DF /* tracks_a_user_s_moodUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracks_a_user_s_moodUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB8C08AE2AE79C88000E85DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8C08BE2AE79C89000E85DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8C08C82AE79C89000E85DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB8C08A82AE79C88000E85DF = {
+			isa = PBXGroup;
+			children = (
+				AB8C08B32AE79C88000E85DF /* tracks a user's mood */,
+				AB8C08C42AE79C89000E85DF /* tracks a user's moodTests */,
+				AB8C08CE2AE79C89000E85DF /* tracks a user's moodUITests */,
+				AB8C08B22AE79C88000E85DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB8C08B22AE79C88000E85DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C08B12AE79C88000E85DF /* tracks a user's mood.app */,
+				AB8C08C12AE79C89000E85DF /* tracks a user's moodTests.xctest */,
+				AB8C08CB2AE79C89000E85DF /* tracks a user's moodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB8C08B32AE79C88000E85DF /* tracks a user's mood */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C08B42AE79C88000E85DF /* tracks_a_user_s_moodApp.swift */,
+				AB8C08B62AE79C88000E85DF /* ContentView.swift */,
+				AB8C08B82AE79C89000E85DF /* Assets.xcassets */,
+				AB8C08BA2AE79C89000E85DF /* Preview Content */,
+			);
+			path = "tracks a user's mood";
+			sourceTree = "<group>";
+		};
+		AB8C08BA2AE79C89000E85DF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C08BB2AE79C89000E85DF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AB8C08C42AE79C89000E85DF /* tracks a user's moodTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C08C52AE79C89000E85DF /* tracks_a_user_s_moodTests.swift */,
+			);
+			path = "tracks a user's moodTests";
+			sourceTree = "<group>";
+		};
+		AB8C08CE2AE79C89000E85DF /* tracks a user's moodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB8C08CF2AE79C89000E85DF /* tracks_a_user_s_moodUITests.swift */,
+				AB8C08D12AE79C89000E85DF /* tracks_a_user_s_moodUITestsLaunchTests.swift */,
+			);
+			path = "tracks a user's moodUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB8C08B02AE79C88000E85DF /* tracks a user's mood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8C08D52AE79C89000E85DF /* Build configuration list for PBXNativeTarget "tracks a user's mood" */;
+			buildPhases = (
+				AB8C08AD2AE79C88000E85DF /* Sources */,
+				AB8C08AE2AE79C88000E85DF /* Frameworks */,
+				AB8C08AF2AE79C88000E85DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tracks a user's mood";
+			productName = "tracks a user's mood";
+			productReference = AB8C08B12AE79C88000E85DF /* tracks a user's mood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB8C08C02AE79C89000E85DF /* tracks a user's moodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8C08D82AE79C89000E85DF /* Build configuration list for PBXNativeTarget "tracks a user's moodTests" */;
+			buildPhases = (
+				AB8C08BD2AE79C89000E85DF /* Sources */,
+				AB8C08BE2AE79C89000E85DF /* Frameworks */,
+				AB8C08BF2AE79C89000E85DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8C08C32AE79C89000E85DF /* PBXTargetDependency */,
+			);
+			name = "tracks a user's moodTests";
+			productName = "tracks a user's moodTests";
+			productReference = AB8C08C12AE79C89000E85DF /* tracks a user's moodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB8C08CA2AE79C89000E85DF /* tracks a user's moodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB8C08DB2AE79C89000E85DF /* Build configuration list for PBXNativeTarget "tracks a user's moodUITests" */;
+			buildPhases = (
+				AB8C08C72AE79C89000E85DF /* Sources */,
+				AB8C08C82AE79C89000E85DF /* Frameworks */,
+				AB8C08C92AE79C89000E85DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB8C08CD2AE79C89000E85DF /* PBXTargetDependency */,
+			);
+			name = "tracks a user's moodUITests";
+			productName = "tracks a user's moodUITests";
+			productReference = AB8C08CB2AE79C89000E85DF /* tracks a user's moodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB8C08A92AE79C88000E85DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AB8C08B02AE79C88000E85DF = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					AB8C08C02AE79C89000E85DF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AB8C08B02AE79C88000E85DF;
+					};
+					AB8C08CA2AE79C89000E85DF = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = AB8C08B02AE79C88000E85DF;
+					};
+				};
+			};
+			buildConfigurationList = AB8C08AC2AE79C88000E85DF /* Build configuration list for PBXProject "tracks a user's mood" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB8C08A82AE79C88000E85DF;
+			productRefGroup = AB8C08B22AE79C88000E85DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB8C08B02AE79C88000E85DF /* tracks a user's mood */,
+				AB8C08C02AE79C89000E85DF /* tracks a user's moodTests */,
+				AB8C08CA2AE79C89000E85DF /* tracks a user's moodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB8C08AF2AE79C88000E85DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8C08BC2AE79C89000E85DF /* Preview Assets.xcassets in Resources */,
+				AB8C08B92AE79C89000E85DF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8C08BF2AE79C89000E85DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8C08C92AE79C89000E85DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB8C08AD2AE79C88000E85DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8C08B72AE79C88000E85DF /* ContentView.swift in Sources */,
+				AB8C08B52AE79C88000E85DF /* tracks_a_user_s_moodApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8C08BD2AE79C89000E85DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8C08C62AE79C89000E85DF /* tracks_a_user_s_moodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB8C08C72AE79C89000E85DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8C08D22AE79C89000E85DF /* tracks_a_user_s_moodUITestsLaunchTests.swift in Sources */,
+				AB8C08D02AE79C89000E85DF /* tracks_a_user_s_moodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB8C08C32AE79C89000E85DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8C08B02AE79C88000E85DF /* tracks a user's mood */;
+			targetProxy = AB8C08C22AE79C89000E85DF /* PBXContainerItemProxy */;
+		};
+		AB8C08CD2AE79C89000E85DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB8C08B02AE79C88000E85DF /* tracks a user's mood */;
+			targetProxy = AB8C08CC2AE79C89000E85DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		AB8C08D32AE79C89000E85DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB8C08D42AE79C89000E85DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB8C08D62AE79C89000E85DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tracks a user's mood/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lei.tracks-a-user-s-mood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB8C08D72AE79C89000E85DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"tracks a user's mood/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lei.tracks-a-user-s-mood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB8C08D92AE79C89000E85DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lei.tracks-a-user-s-moodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tracks a user's mood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tracks a user's mood";
+			};
+			name = Debug;
+		};
+		AB8C08DA2AE79C89000E85DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lei.tracks-a-user-s-moodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tracks a user's mood.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/tracks a user's mood";
+			};
+			name = Release;
+		};
+		AB8C08DC2AE79C89000E85DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lei.tracks-a-user-s-moodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tracks a user's mood";
+			};
+			name = Debug;
+		};
+		AB8C08DD2AE79C89000E85DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "lei.tracks-a-user-s-moodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "tracks a user's mood";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB8C08AC2AE79C88000E85DF /* Build configuration list for PBXProject "tracks a user's mood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8C08D32AE79C89000E85DF /* Debug */,
+				AB8C08D42AE79C89000E85DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8C08D52AE79C89000E85DF /* Build configuration list for PBXNativeTarget "tracks a user's mood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8C08D62AE79C89000E85DF /* Debug */,
+				AB8C08D72AE79C89000E85DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8C08D82AE79C89000E85DF /* Build configuration list for PBXNativeTarget "tracks a user's moodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8C08D92AE79C89000E85DF /* Debug */,
+				AB8C08DA2AE79C89000E85DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB8C08DB2AE79C89000E85DF /* Build configuration list for PBXNativeTarget "tracks a user's moodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB8C08DC2AE79C89000E85DF /* Debug */,
+				AB8C08DD2AE79C89000E85DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB8C08A92AE79C88000E85DF /* Project object */;
+}
